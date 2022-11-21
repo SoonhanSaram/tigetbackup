@@ -23,7 +23,7 @@ const normalizePort = (val) => {
 
 
 const debug = createDebug('tigetv1:server');
-const port = normalizePort(process.env.PORT || "4000");
+const port = normalizePort(process.env.PORT || "4500");
 
 /**
  * Create HTTP server.

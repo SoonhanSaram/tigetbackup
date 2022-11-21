@@ -1,8 +1,20 @@
 body {
   margin: 0;  
-  position: relative;
+  padding: 0;
+  position: relative;    
+}
+section.scroll {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
+section.main3, section.main2 {  
+  scroll-snap-align: start;
+  border: 1px solid black;
+  border-radius: 5%;
+}
 /* div.flag {
   height: 100%;
   width: 100%;
